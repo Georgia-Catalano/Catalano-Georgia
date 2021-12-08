@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2? family=Parisienne&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(../multimedia/fondo_3.jpg);
+}
+
+.encabezado {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  opacity: 0.6;
+}
+
+.encabezado .encabezado__titulo {
+  width: 100%;
+  height: 500px;
+}
+
+.encabezado .encabezado__titulo img {
+  margin-left: 25%;
+  margin-top: 15px;
+}
+
+/*Menu*/
+.menu__barra {
+  width: 100%;
+  height: 100px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#f78282), color-stop(#fabdbd), to(#f78282));
+  background-image: linear-gradient(to left, #f78282, #fabdbd, #f78282);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu__barra nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  font-size: 40px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.menu__barra a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu__barra nav :hover {
+  color: gray;
+  font-size: 42px;
+}
+
+.menu__iconos {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.menu__iconos img {
+  width: 40px;
+  height: 40px;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.menu__iconos img:hover {
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: gray;
+}
+
+/*Primer bloque de pagina*/
+main {
+  width: 100%;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.76);
+  opacity: 0.6;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+main h1 {
+  padding-top: 30px;
+  font-size: 60px;
+}
+
+main p {
+  padding: 50px;
+}
+
+/*Segundo bloque de pagina, "dos tarjetas"*/
+.section__uno {
+  width: 90%;
+  height: 400px;
+  background-color: #fabdbd;
+  opacity: 0.6;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+  border-radius: 0px 150px 150px 0px;
+  color: black;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.section__uno h2 {
+  font-size: 60px;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.section__uno p {
+  padding-bottom: 50px;
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.section__uno a {
+  text-decoration: none;
+  color: black;
+}
+
+.section__uno:hover {
+  background-color: #f78282;
+  color: black;
+}
+
+.section__uno h2:hover {
+  color: white;
+}
+
+.section__dos {
+  width: 90%;
+  height: 400px;
+  background-color: #fabdbd;
+  opacity: 0.6;
+  margin-top: 50px;
+  margin-left: 10%;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  border-radius: 150px 0px 0px 150px;
+  color: black;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.section__dos h2 {
+  font-size: 60px;
+  text-align: right;
+  padding-bottom: 50px;
+}
+
+.section__dos p {
+  padding-bottom: 50px;
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.section__dos a {
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+}
+
+.section__dos:hover {
+  background-color: #f78282;
+  color: white;
+}
+
+a:hover {
+  font-size: 50px;
+  color: #f3d6d6;
+}
+
+/*Pie de pagina*/
+footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.76);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 25px;
+}
+
+footer p {
+  text-align: center;
+  color: #f78282;
+  padding-bottom: 20px;
+}
+
+footer .mapa a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .mapa ul a:hover {
+  color: #f78282;
+  font-size: 25px;
+}
+
+footer .contacto ul {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  color: #f78282;
+}
+
+footer .contacto ul img {
+  width: 35px;
+  height: 35px;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+footer .contacto ul img:hover {
+  border: 3px solid #f78282;
+  border-radius: 10px;
+  background-color: #f78282;
+}
+
+/*Page: Galeria*/
+.novia {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.novia .carousel-fade {
+  width: 100%;
+  height: 600px;
+  padding: 20px;
+  margin-left: 8px;
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.76);
+          box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.76);
+  border-radius: 60px 0px 0px 60px;
+}
+
+.novia .carousel-fade .d-block {
+  border-radius: 60px 0px 0px 60px;
+}
+
+.textocarousel {
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 20px;
+  width: 100%;
+  height: 600px;
+  font-size: 35px;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.76);
+          box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.76);
+  border-radius: 0px 60px 60px 0px;
+}
+
+.textocarousel h2 {
+  color: black;
+  padding-bottom: 10px;
+  font-size: 55px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#fabdbd), to(white));
+  background-image: linear-gradient(to left, #fabdbd, white);
+  opacity: 0.6;
+  border-radius: 0px 100px 100px 0px;
+}
+
+/*Grids novias dos*/
+.novias__dos {
+  width: 100%;
+  height: 700px;
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-right: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.novias__dos .grids_novias {
+  width: 100%;
+  height: 650px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.novias__dos .grids_novias_icons--texto {
+  width: 100%;
+  height: 650px;
+  color: rgba(0, 0, 0, 0.76);
+  padding: 20px;
+}
+
+.novias__dos .grids_novias_icons--texto h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  font-size: 55px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f3d6d6), color-stop(#fabdbd), to(#704970));
+  background-image: linear-gradient(to right, #f3d6d6, #fabdbd, #704970);
+  border-radius: 0px 100px 100px 0px;
+  opacity: 0.6;
+  color: white;
+}
+
+.novias__dos .grids_novias_icons {
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.76);
+          box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.76);
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+.novias__dos .grids_novias_icons img {
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.76);
+          box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.76);
+}
+
+/*Grids damas de honor*/
+.section__dos__g {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding-top: 50px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.section__dos__g h2 {
+  width: 50%;
+  height: 150px;
+  font-size: 55px;
+  text-align: right;
+  background-image: -webkit-gradient(linear, right top, left top, from(#fabdbd), to(#f78282));
+  background-image: linear-gradient(to left, #fabdbd, #f78282);
+  opacity: 0.5;
+  color: white;
+  margin-left: 50%;
+  padding: 25px;
+  padding-right: 150px;
+  border-radius: 100px 0px 0px 100px;
+}
+
+.section__dos__g p {
+  padding: 50px;
+}
+
+.section__dos__g .grids__damas {
+  width: 100%;
+  height: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section__dos__g .grids__damas .grids__damas_icons {
+  width: 100%;
+  height: 300px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.76);
+          box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.76);
+  border-radius: 20px 20px 20px 20px;
+  padding: 15px;
+}
+
+.section__dos__g .grids__damas img {
+  width: 390px;
+  height: auto;
+  border-radius: 20px;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.section__dos__g .grids__damas .grids__damas_icons:hover {
+  width: 500px;
+  height: auto;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.section__dos__g .grids__damas .grids__damas_icons:hover img:hover {
+  border-radius: 20px;
+  width: 480px;
+  height: auto;
+}
+/*# sourceMappingURL=estilos.css.map */
