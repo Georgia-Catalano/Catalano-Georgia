@@ -1,0 +1,392 @@
+/*----------------------------------------------------PAGE SERVICIOS----------------------------------------------------------------*/
+/*---------------PRIMER SECCION: FOTO Y CONTENEDOR CON TEXTO DESCRIPTIVO------------------------------*/
+#sobremi {
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .perfil__texto {
+        margin-right: 15px;
+        width: 100%;
+        height: 450px;
+        font-size: $texto1;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        box-shadow: 3px 3px 8px $colorletra;
+        border-radius: 0px 220px 220px 0px;
+        background-color: $color2;
+        opacity: 0.7;
+        padding: 20px;
+
+        h2 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-image: linear-gradient(to left, $color2, white);
+            opacity: 0.6;
+            border-radius: 0px 100px 100px 0px;
+            font-size: $titulo1;
+            width: 90%;
+        }
+
+        p {
+
+            padding: 10px;
+
+        }
+    }
+
+    .perfil__img {
+        width: 300px;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 8px $colorletra;
+        margin-right: 15px;
+
+    }
+}
+/*---------------SEGUNDA SECCION: 3 CONTENEDORES (TARJETAS) SOBRE SERVICIOS------------------------------*/
+.section__uno__s {
+    width: 100%;
+    height: auto;
+    font-size: $texto1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+    h2 {
+        font-size: $titulo2;
+        opacity: 0.7;
+        text-align: center;
+        color: white;
+        background-color: $colorletra;
+        box-shadow: 03px 03px 8px $colorletra;
+    }
+
+    .servicios{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .servicios_icons {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column; 
+        background-color: $colorletra;
+        opacity: 0.6;
+        border-radius: 20px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        font-size: $texto1;
+        color: white;
+
+        h3{
+            width: 100%;
+            font-size: $titulo1;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-image: linear-gradient(to left, $color2 , $colorletra);
+            padding: 20px;
+            border-radius: 20px 20px 0px 0px;
+
+        }
+        p{
+            padding: 25px;
+        }
+        .boton_icon {
+            text-decoration: none;
+            color: white;
+            background-color: $color3;
+            border-radius: 20px;
+            border: 1px solid $color2;
+            width: auto;
+            font-size: $texto1;
+            padding: 5px;
+        }
+
+        .boton_icon:hover {
+            font-size: $texto1hov;
+            background-image: linear-gradient(to left, $colorletra, $color3, $colorletra);
+            color: white;
+        }
+        .consultas {
+            display: flex;
+            justify-content: space-around;
+            align-content: space-around;
+            flex-direction: column;
+            
+        }
+
+    ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 35px;
+        padding-bottom: 20px;
+    }
+}
+}
+
+
+    /*-------------CONTENEDOR CON FORMULARIO PARA CONSULTAS--------------*/
+
+    form div {
+        display: flex;
+        border: 2px solid $color3;
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: stretch;
+        padding: 10px;
+        gap: 5px;
+        margin: 10px;
+        margin-left: 60px;
+        border-radius: 20px;
+        font-size: $texto1;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+        textarea {
+            border-radius: 20px;
+            font-size: $texto1;
+            padding: 5px;
+            border: 1px solid $color3;
+        }
+
+        input {
+            border-radius: 20px;
+            font-size: $texto1;
+            padding: 5px;
+            border: 1px solid $color3;
+
+        }
+    }
+
+    .boton {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 15px;
+        flex-direction: row;
+        padding: 20px;
+
+        .boton_icon {
+            text-decoration: none;
+            color: white;
+            background-color: $color3;
+            border-radius: 20px;
+            border: 1px solid $color2;
+            width: auto;
+            font-size: $texto1;
+            padding: 5px;
+        }
+
+        .boton_icon:hover {
+            font-size: $texto1hov;
+            background-image: linear-gradient(to left, $colorletra, $color3, $colorletra);
+            color: white;
+        }
+    }
+
+    @media only screen and (max-width: 360px) {
+
+        /*----------------------------------------------------PAGE SERVICIOS----------------------------------------------------------------*/
+        /*---------------PRIMER SECCION: FOTO Y CONTENEDOR CON TEXTO DESCRIPTIVO------------------------------*/
+        #sobremi {
+            font-size: $textoresponsive;
+        
+            .perfil__texto {
+                margin-right: 15px;
+                width: 100%;
+                height: 450px;
+                font-size: $texto1;
+                text-align: center;
+                box-shadow: 3px 3px 8px $colorletra;
+                border-radius: 0px 220px 220px 0px;
+                background-color: $color2;
+                opacity: 0.7;
+                padding: 20px;
+        
+                h2 {
+                    font-size: $tituloresponsive;
+                    width: 90%;
+                }
+        
+                p {
+                    padding: 10px;
+                }
+            }
+            .perfil__img {
+                width: 300px;
+                height: 450px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 3px 3px 8px $colorletra;
+                margin-right: 15px;
+            }
+        }
+        /*---------------SEGUNDA SECCION: 3 CONTENEDORES (TARJETAS) SOBRE SERVICIOS------------------------------*/
+        .section__uno__s {
+            width: 100%;
+            height: auto;
+            font-size: $textoresponsive;
+        
+            h2 {
+                width: 90%;
+                height: auto;
+                font-size: $tituloresponsive;
+            }
+        }
+            .servicios{
+                width: 90%;
+                height: auto;
+                display: flex;
+                flex-direction: column; 
+            }
+            .servicios_icons {
+                width: 90%;
+                height: auto;
+                display: flex;
+                flex-direction: column; 
+                font-size: $textoresponsive;
+        
+                .consultas {
+                    display: flex;
+                    justify-content: space-around;
+                    align-content: space-around;
+                    flex-direction: column;
+                }
+        
+            ul {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                padding-bottom: 20px;
+            }
+        }
+    }
+    @media only screen and (max-width: 400px) {
+
+        /*---------------PRIMER SECCION: FOTO Y CONTENEDOR CON TEXTO DESCRIPTIVO------------------------------*/
+        #sobremi {
+            font-size: $textoresponsive;
+            gap: 10px;
+        
+            .perfil__texto {
+                width: 100%;
+                height: auto;
+                text-align: center;
+                box-shadow: 3px 3px 8px $colorletra;
+                border-radius: 0px 220px 220px 0px;
+                background-color: $color2;
+                opacity: 0.7;
+                padding: 20px;
+        
+                h2 {
+                    font-size: $tituloresponsive;
+                    height: auto;
+                    width: 80%;
+                    padding: 5px;
+                }
+        
+                p {
+                    padding: 25px;
+                }
+            }
+            .perfil__img {
+                width: 300px;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 3px 3px 8px $colorletra;
+                margin-right: 15px;
+            }
+        }
+        /*---------------SEGUNDA SECCION: 3 CONTENEDORES (TARJETAS) SOBRE SERVICIOS------------------------------*/
+        .section__uno__s {
+            width: 100%;
+            height: auto;
+            font-size: $textoresponsive;
+        
+            h2 {
+                width: 100%;
+                height: auto;
+                font-size: $tituloresponsive;
+            }
+        }
+            .servicios{
+                width: 90%;
+                height: auto;
+                display: flex;
+                flex-direction: column; 
+            }
+            .servicios_icons {
+                width: 90%;
+                height: auto;
+                display: flex;
+                flex-direction: column; 
+                font-size: $textoresponsive;
+    
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                padding-bottom: 10px;
+            }
+        }
+            .consulta {
+                width: 90%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+        
+                h3{
+                    width: 100%;
+                    height: auto;
+                    font-size: $tituloresponsive;
+                }
+                p{
+                    padding: 20px;
+                    text-align: center;
+                    font-size: $textoresponsive;
+                }
+            }
+    /*-------------CONTENEDOR CON FORMULARIO PARA CONSULTAS--------------*/
+    
+        form div {
+            display: flex;
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: stretch;
+            padding: 10px;
+            gap: 5px;
+            font-size: $textoresponsive;
+    
+            textarea {
+                font-size: $textoresponsive;
+                padding: 5px;
+            }
+    
+            input {
+                font-size: $textoresponsive;
+                padding: 5px;
+            }
+        } 
+    }
+    

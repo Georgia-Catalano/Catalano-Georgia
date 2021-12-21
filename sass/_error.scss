@@ -1,0 +1,30 @@
+/*--------------------------------------------PAGE 404 NOT FOUND--------------------------------------------------------*/
+
+body {
+    background-image: url(../multimedia/fondo_3.jpg);
+}
+
+.error {
+    width: 80%;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 120px;
+    border: 4px solid $color3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    h1 {
+        text-align: center;
+        font-size: $titulo2;
+        color: $color3;
+        padding: 30px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: $titulo1;
+    }
+
+    p {
+        font-size: $texto1;
+    }
+}
