@@ -1,0 +1,22 @@
+/*---------------------------------ESTILOS PAGES----------------------------------------*/
+@import "_variables";
+@import "_piedepagina";
+@import "_encabezado";
+@import "_main";
+@import "_index";
+@import "_galeria";
+@import "_servicios";
+@import "error";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../multimedia/fondo_3.jpg);
+}
+
+
+
