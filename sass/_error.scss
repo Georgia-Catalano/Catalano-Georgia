@@ -43,3 +43,31 @@ body {
         font-style: italic;
     }
 }
+@media only screen and (max-width: 1002px) {
+
+.error{
+width: 70%;
+height: auto;
+}
+}
+@media only screen and (max-width: 600px) {
+
+    .error{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        h1{
+            font-size: $tituloresponsive;
+        }
+        h2{
+            font-size: $tituloresponsive;
+        }
+        p{
+            font-size: $textoresponsive;
+        }
+        a{
+            font-size: $tituloresponsive;
+        }
+
+    }
+    }
