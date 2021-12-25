@@ -1,0 +1,23 @@
+/*---------------------------------ESTILOS PAGES----------------------------------------*/
+@import "_variables";
+@import "_piedepagina";
+@import "_encabezado";
+@import "_main";
+@import "_index";
+@import "_galeria";
+@import "_servicios";
+@import "error";
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../multimedia/fondo_3.jpg);
+}
+
+
+
