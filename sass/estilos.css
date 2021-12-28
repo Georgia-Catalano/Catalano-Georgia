@@ -46,7 +46,31 @@ body {
   color: #f78282;
   font-style: italic;
 }
+@media only screen and (max-width: 1002px) {
+  .error {
+    width: 70%;
+  }
+}
 
+@media only screen and (max-width: 600px) {
+  .error {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .error h1 {
+    font-size: 23px;
+  }
+  .error h2 {
+    font-size: 23px;
+  }
+  .error p {
+    font-size: 18px;
+  }
+  .error a {
+    font-size: 23px;
+  }
+}
 /*----------------------PIE DE PAGINA--------------------------*/
 footer {
   width: 100%;
@@ -1367,6 +1391,32 @@ form div input {
 .volver a:hover {
   color: #f78282;
   font-style: italic;
+}
+@media only screen and (max-width: 1002px) {
+  .volver {
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .volver {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .volver h1 {
+    font-size: 23px;
+  }
+  .volver h2 {
+    font-size: 23px;
+  }
+  .volver p {
+    font-size: 18px;
+  }
+  .volver a {
+    font-size: 23px;
+  }
 }
 
 * {
