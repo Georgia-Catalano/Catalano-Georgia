@@ -226,6 +226,7 @@ footer .contacto ul img:hover {
 .menu__barra nav a {
   text-decoration: none;
   color: white;
+  text-shadow: 0 0 7px black;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -367,6 +368,7 @@ main h1 {
   font-size: 55px;
   text-align: left;
   font-family: 'Parisienne', cursiva;
+  text-shadow: 0 0 7px black;
 }
 
 main p {
@@ -615,6 +617,7 @@ main p {
   background-image: linear-gradient(to left, #f3d6d6, #f78282);
   opacity: 0.5;
   color: white;
+  text-shadow: 0 0 7px black;
   padding: 20px;
   border-radius: 0px 100px 100px 0px;
 }
