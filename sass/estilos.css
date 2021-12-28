@@ -226,7 +226,7 @@ footer .contacto ul img:hover {
 .menu__barra nav a {
   text-decoration: none;
   color: white;
-  text-shadow: 0 0 7px black;
+  text-shadow: 0 0 2px black;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
