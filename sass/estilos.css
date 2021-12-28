@@ -168,7 +168,7 @@ footer .contacto ul img:hover {
     padding-bottom: 20px;
     gap: 30px;
       
-    .contacto ul img:hover {
+    .contacto ul img {
   border-radius: 0px;
 
 }
