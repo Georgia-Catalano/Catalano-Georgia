@@ -82,7 +82,6 @@
 
         .grids__damas_icons {
             width: 100%;
-            height: auto;
             justify-content: space-evenly;
             align-items: center;
             justify-items: center;
@@ -96,19 +95,20 @@
 
         img {
             width: 250px;
-            height: auto;
             border-radius: 20px;
             transition: width 2s;
+            object-fit: cover;
         }
 
         .grids__damas_icons:hover {
-            width: 450px;
-            height: auto;
+            width: 100%;
 
             img {
                 border-radius: 20px;
-                width: 400px;
-                height: auto;
+                width: 100%;
+                object-fit: cover;
+                
+
             }
         }
     }
@@ -200,24 +200,13 @@
 
             .grids__damas_icons {
                 width: 100%;
-                height: 300px;
                 margin-bottom: 20px;
 
             }
 
             img {
-                width: 100%;
-                height: 250px;
                 border-radius: 20px;
                 transition: width 2s;
-            }
-
-            .grids__damas_icons:hover {
-                height: 330px;
-
-                img {
-                    height: 280px;
-                }
             }
         }
         }
@@ -286,28 +275,6 @@
         }
     }
 
-    .grids__damas_icons {
-        width: 90%;
-        height: 180px;
-
-    }
-
-    img {
-        width: 100%;
-        height: 120px;
-        border-radius: 20px;
-
-    }
-    
-
-    .grids__damas_icons:hover {
-        height: 210px;
-
-        img {
-            height: 150px;
-
-        }
-    }
 }
 
 
@@ -366,50 +333,8 @@
             width: 60%;
         }
     }
-    .grids__damas {
-        
-.grids__damas_icons {
-    width:80%;
-    height:auto;
-
-img {
-    width: 250px;
-    height: auto;
-
-}
-}
-.grids__damas_icons:hover{
-    width: 85%;
-    img{
-        width:270px;
-    }
-}
-}
 }
 
-@media only screen and (max-width:500px){
-    .grids__damas {
-        width: 70%;
-        .grids__damas_icons {
-            width:65%;
-            height:auto;
-        
-        img {
-            width: 190px;
-            height: auto;
-        
-        }
-        .grids__damas_icons:hover{
-        width:65%;
-        height:auto;
-        img {
-            width: 190px;
-            height: auto;
-            }
-        }
-        }
-        }
-}
 
 @media only screen and (max-width: 360px) {
 
@@ -419,26 +344,6 @@ img {
             width: 60%;
         }
     }
-    .grids__damas {
-        width: 60%;
-        .grids__damas_icons {
-            width:60%;
-            height:auto;
-        
-        img {
-            width: 170px;
-            height: auto;
-        
-        }
-        .grids__damas_icons:hover{
-        width:60%;
-        height:auto;
-        img {
-            width: 170px;
-            height: auto;
-            }
-        }
-        }
-}
+    
 
 }
