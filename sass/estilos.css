@@ -144,6 +144,7 @@ footer .contacto ul {
 footer .contacto ul img {
   width: 30px;
   height: 30px;
+  border-radius:0px;
   -webkit-transition: width 2s;
   transition: width 2s;
 }
@@ -673,14 +674,14 @@ main p {
 }
 
 .section__dos__g .grids__damas .grids__damas_icons:hover {
-  width: 450px;
-  height: auto;
+  width: 100%;
+
 }
 
 .section__dos__g .grids__damas .grids__damas_icons:hover img {
   border-radius: 20px;
-  width: 400px;
-  height: auto;
+  width: 100%;
+
 }
 
 /*------------------------------------TERCER SECCION: FOTOS SOLAS Y CONTENEDOR CON TEXTO DESCRIPTIVO---------------------------------*/
@@ -830,15 +831,6 @@ main p {
     height: auto;
     font-size: 18px;
   }
-  .grids__damas_icons {
-    width: 90%;
-
-  }
-  img {
-    width: 100%;
-
-    border-radius: 20px;
-  }
 
 }
 
@@ -892,69 +884,8 @@ main p {
   .section__dos__g h2 {
     width: 60%;
   }
-  .grids__damas .grids__damas_icons {
-    width: 80%;
-
-  }
-  .grids__damas .grids__damas_icons img {
-    width: 250px;
-
-  }
-  .grids__damas .grids__damas_icons:hover {
-    width: 85%;
-  }
-  .grids__damas .grids__damas_icons:hover img {
-    width: 270px;
-  }
 }
 
-@media only screen and (max-width: 500px) {
-  .grids__damas {
-    width: 70%;
-  }
-  .grids__damas .grids__damas_icons {
-    width: 65%;
-
-  }
-  .grids__damas .grids__damas_icons img {
-    width: 190px;
-
-  }
-  .grids__damas .grids__damas_icons .grids__damas_icons:hover {
-    width: 65%;
-
-  }
-  .grids__damas .grids__damas_icons .grids__damas_icons:hover img {
-    width: 190px;
-
-  }
-}
-
-@media only screen and (max-width: 360px) {
-  /*--------------------------------DAMAS DE HONOR--------------------------------------------*/
-  .section__dos__g h2 {
-    width: 60%;
-  }
-  .grids__damas {
-    width: 60%;
-  }
-  .grids__damas .grids__damas_icons {
-    width: 60%;
-
-  }
-  .grids__damas .grids__damas_icons img {
-    width: 170px;
-
-  }
-  .grids__damas .grids__damas_icons .grids__damas_icons:hover {
-    width: 60%;
-
-  }
-  .grids__damas .grids__damas_icons .grids__damas_icons:hover img {
-    width: 170px;
-
-  }
-}
 
 /*----------------------------------------------------PAGE SERVICIOS----------------------------------------------------------------*/
 /*---------------PRIMER SECCION: FOTO Y CONTENEDOR CON TEXTO DESCRIPTIVO------------------------------*/
