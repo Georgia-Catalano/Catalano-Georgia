@@ -1213,7 +1213,7 @@ form div input {
             flex-direction: column;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 780px) {
 .section__uno__s .servicios_icons ul {
     width: 100%;
     display: -webkit-box;
